@@ -89,11 +89,24 @@ export const CurriculumVitae: React.FC<Props> = () => (
                 >
                   {workExperienceItem.title}
                 </Text>
-                <Text style={{ fontSize: 10, marginBottom: 5 }}>
+                <Text
+                  style={{
+                    fontSize: 10,
+                    marginBottom: 5,
+                    fontFamily: "Times-Roman"
+                  }}
+                >
                   {workExperienceItem.description}
                 </Text>
-                {workExperienceItem.achievements.map(achievement => (
-                  <Text style={{ fontSize: 10, marginBottom: 3 }}>
+                {workExperienceItem.achievements.map((achievement, i) => (
+                  <Text
+                    key={i}
+                    style={{
+                      fontSize: 10,
+                      marginBottom: 3,
+                      fontFamily: "Times-Roman"
+                    }}
+                  >
                     • {achievement}
                   </Text>
                 ))}

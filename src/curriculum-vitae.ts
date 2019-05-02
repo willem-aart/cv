@@ -40,7 +40,7 @@ export const curriculumVitae: CurriculumVitae = {
       description: `Regelbox is een SaaS-platform waarmee organisaties eenvoudig functie-, rol- en groepsprofielen kunnen samenstellen voor o.a. (her)structurering en ordening van organisatiestructuren, en ter ondersteuning van de evaluatiecyclus.
       Samen met vier andere ondernemers en inmiddels als mede-eigenaar nauw betrokken bij de ontwikkeling van de organisatie en het product.`,
       achievements: [
-        "eindverantwoordelijk voor algehele gebruikerservaring, technische implementatie van UI en grafische vormgevings",
+        "eindverantwoordelijk voor algehele gebruikerservaring, technische implementatie van UI en grafische vormgeving",
         "domeinmodel / datamodel gespecificeerd",
         "interactie-ontwerp, grafische vormgeving en typografie van UI gerealiseerd",
         "single page app geïmplementeerd middels o.a. TypeScript en React"

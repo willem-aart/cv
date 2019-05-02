@@ -12,8 +12,8 @@ type Props = {
   curriculumVitae: CurriculumVitaeType;
 };
 
-Font.register({ family: "Roboto", src: "/Roboto-Regular.ttf" });
-Font.register({ family: "Oswald", src: "/Oswald-Medium.ttf" });
+Font.register({ family: "Roboto", src: "/cv/Roboto-Regular.ttf" });
+Font.register({ family: "Oswald", src: "/cv/Oswald-Medium.ttf" });
 
 export const CurriculumVitae: React.FC<Props> = () => (
   <Document

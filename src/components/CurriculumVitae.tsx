@@ -12,11 +12,8 @@ type Props = {
   curriculumVitae: CurriculumVitaeType;
 };
 
-Font.register(
-  "https://fonts.gstatic.com/s/oswald/v13/Y_TKV6o8WovbUd3m_X9aAA.ttf",
-  // @ts-ignore
-  { family: "Oswald" }
-);
+Font.register({ family: "Roboto", src: "/Roboto-Regular.ttf" });
+Font.register({ family: "Oswald", src: "/Oswald-Medium.ttf" });
 
 export const CurriculumVitae: React.FC<Props> = () => (
   <Document
@@ -26,7 +23,7 @@ export const CurriculumVitae: React.FC<Props> = () => (
     <Page
       size="A4"
       style={{
-        padding: "50pt 50pt 0 50pt",
+        padding: "30pt 50pt 0pt 50pt",
         flexGrow: 1,
         color: "#222",
         fontFamily: "Oswald"
@@ -93,7 +90,7 @@ export const CurriculumVitae: React.FC<Props> = () => (
                   style={{
                     fontSize: 10,
                     marginBottom: 5,
-                    fontFamily: "Times-Roman"
+                    fontFamily: "Roboto"
                   }}
                 >
                   {workExperienceItem.description}
@@ -104,7 +101,7 @@ export const CurriculumVitae: React.FC<Props> = () => (
                     style={{
                       fontSize: 10,
                       marginBottom: 3,
-                      fontFamily: "Times-Roman"
+                      fontFamily: "Roboto"
                     }}
                   >
                     • {achievement}
@@ -120,7 +117,7 @@ export const CurriculumVitae: React.FC<Props> = () => (
         style={{
           position: "absolute",
           fontSize: 10,
-          bottom: 30,
+          bottom: 15,
           left: 0,
           right: 0,
           textAlign: "center",

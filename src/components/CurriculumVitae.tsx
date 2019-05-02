@@ -102,6 +102,20 @@ export const CurriculumVitae: React.FC<Props> = () => (
           }))}
         </DefinitionList>
       </Section>
+
+      <Text
+        style={{
+          position: "absolute",
+          fontSize: 10,
+          bottom: 30,
+          left: 0,
+          right: 0,
+          textAlign: "center",
+          color: "grey"
+        }}
+        render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`}
+        fixed
+      />
     </Page>
   </Document>
 );

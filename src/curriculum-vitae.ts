@@ -21,7 +21,7 @@ export const curriculumVitae: CurriculumVitae = {
     {
       period: "nov. 2017 - heden",
       title: "Regelbox en persoonlijke ontwikkeling",
-      description: `Gedurende een periode van ± anderhalf jaar volledig autonoom gewerkt aan de realisatie van Regelbox (zie volgende) en ontwikkeling van vakgerelateerde (en persoonlijke) competenties.
+      description: `Gedurende een periode van ± anderhalf jaar volledig autonoom gericht op de realisatie van Regelbox (zie volgende) en ontwikkeling van vakgerelateerde (en persoonlijke) competenties.
       
       Intensief gefocust op (verdere) beheersing van praktisch inzetbare en universeel (d.w.z. op ieder software-project) toepasbare kennis en vaardigheden. Denk hierbij o.a. aan:
 

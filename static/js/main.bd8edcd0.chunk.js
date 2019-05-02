@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{3:function(e,n,t){e.exports=t(9)},9:function(e,n,t){"use strict";t.r(n);var r=t(0),u=t.n(r),c=t(2),o=function(){return u.a.createElement("div",null,"curriculum vitae ...")};t.n(c).a.render(u.a.createElement(o,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.bd8edcd0.chunk.js.map

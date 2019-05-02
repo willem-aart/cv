@@ -23,7 +23,7 @@ export const curriculumVitae: CurriculumVitae = {
       title: "Regelbox en ontwikkeling van competenties",
       description: `Gedurende een periode van ± anderhalf jaar volledig autonoom gericht op de realisatie van Regelbox (zie volgende) en ontwikkeling van vakgerelateerde (en persoonlijke) competenties.
       
-      Intensief gefocust op (verdere) beheersing van praktisch inzetbare en universeel (d.w.z. op ieder software-project) toepasbare kennis en vaardigheden. Denk hierbij o.a. aan:
+      Intensief toegelegd op (verdere) beheersing van praktisch inzetbare en universeel toepasbare (d.w.z. op ieder software-project) kennis en vaardigheden. Denk hierbij o.a. aan:
 
       • algemene problem solving skills waaronder identificatie van incidentele complexiteit en ontwerpen van intrinsiek eenvoudige oplossingen
       • functioneel programmeren, datatransformatie, functionele (de-)compositie
@@ -31,7 +31,7 @@ export const curriculumVitae: CurriculumVitae = {
       
       Opgedane kennis en vaardigheden rechtstreeks in de praktijk toegepast op Regelbox en andere (kleinere) projecten waaronder een recursieve rule engine die middels een set van afleidingsregels nieuwe feiten kan afleiden uit aangeleverde informatie.
       
-      Voornamelijk gewerkt met Lisp (Scheme, Racket), TypeScript en React.`,
+      Voornamelijk gewerkt met TypeScript, React en Lisp (Scheme, Racket).`,
       achievements: []
     },
     {
@@ -63,7 +63,7 @@ export const curriculumVitae: CurriculumVitae = {
         "Gewerkt aan de Digitale Balie, een online platform voor waterschaps- en gemeentebelastingen met een landelijke reikwijdte van meer dan een miljoen gebruikers.",
       achievements: [
         "UI van bestaande applicatie (daterend uit 2008) volledig herontworpen",
-        "herontworpen UI geïmplementeerd middels o.a. PHP7 en Symfony"
+        "herontworpen UI geïmplementeerd middels o.a. PHP 7 en Symfony"
       ]
     }
   ]
